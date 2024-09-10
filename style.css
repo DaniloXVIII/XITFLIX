@@ -1,0 +1,48 @@
+body{ color: white;
+     background: black; 
+     margin: 0px;
+     font-family: "Cormorant Garamond", sans-serif;
+ } 
+
+header{ border-bottom: solid 3px rgb(255, 0, 212);
+     padding: 20px; 
+     font-size: 32px;
+     color: rgb(255, 0, 242); 
+} 
+
+section{ background: black;
+     padding-top: 10px;
+      padding-bottom: 10px;
+      display: flex; justify-content: center; }
+
+ .chamada-texto{ 
+    margin: 5%
+ } 
+ h1{ 
+    font-size: 30px; 
+} 
+ p{ 
+    font-size: 25px 
+} 
+img{
+    height: 200px;
+
+}
+ .categoria-videos{ background: rgb(153, 0, 255); padding-left: 20px; padding-right: 20px; }
+
+
+ .videos-recomendados{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+ }
+ 
+ img{
+    height: 200px;
+    opacity: 0.5;
+ }
+
+ img:hover{
+    opacity: 1.0;
+    border: solid 5px rgb(245, 192, 255)
+ }
